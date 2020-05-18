@@ -1,0 +1,19 @@
+{
+  "name": "upqode-test",
+  "version": "1.0.0",
+  "description": "Test task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PetroTopylko/upqode-test.git"
+  },
+  "author": "Petro Topylko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PetroTopylko/upqode-test/issues"
+  },
+  "homepage": "https://github.com/PetroTopylko/upqode-test#readme"
+}
