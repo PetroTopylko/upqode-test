@@ -4,7 +4,27 @@
   "description": "Test task",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "test"
+  },
+  "config": {
+    "src": {
+      "sass": "src/sass/index.sass",
+      "html": "src/*.html",
+      "js": "src/js/index.js",
+      "fonts": "src/fonts/**/*.*",
+      "img": "src/img/**/*.*"
+    },
+    "dist": {
+      "css": "dist/css",
+      "html": "dist/",
+      "js": "dist/js",
+      "fonts": "dist/fonts",
+      "img": "dist/img"
+    },
+    "libs": {
+      "js": "src/js/libs.js",
+      "css": "src/css/libs.css"
+    }
   },
   "repository": {
     "type": "git",
@@ -15,5 +35,16 @@
   "bugs": {
     "url": "https://github.com/PetroTopylko/upqode-test/issues"
   },
-  "homepage": "https://github.com/PetroTopylko/upqode-test#readme"
+  "homepage": "https://github.com/PetroTopylko/upqode-test#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.2.2",
+    "gulp-import-css": "^0.1.3",
+    "gulp-include": "^2.4.1",
+    "gulp-sass": "^4.1.0",
+    "gulp4-run-sequence": "^1.0.1",
+    "require-dir": "^1.2.0"
+  }
 }
